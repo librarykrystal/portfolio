@@ -7,6 +7,8 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import Header from '../Header/Header';
+import Nav from '../Nav/Nav';
+import LinkBar from '../LinkBar/LinkBar';
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
     <Router>
       <div>
         <Header />
+        <Nav />
+        <LinkBar />
         <Switch>
           <Redirect exact from="/" to="/home" />
           <Route exact path="/home">

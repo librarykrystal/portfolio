@@ -1,0 +1,86 @@
+html,
+body,
+#react-root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
+  background-color: white;
+}
+
+
+/* -----------------------------------------------------------------
+Header
+----------------------------------------------------------------- */
+
+.headerOuter {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  grid-template-rows: 2;
+  top: 0;
+  height: 75px;
+  overflow: visible;
+}
+
+.headerName {
+  margin-left: 20px;
+  grid-row-start: 1;
+  justify-content: center;
+}
+
+.headerFSSE {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  grid-row-start: 2;
+  width: 100px;
+  position: absolute;
+  top: 90px;
+  height: 90px;
+  justify-self: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* -----------------------------------------------------------------
+Nav Bar
+----------------------------------------------------------------- */
+
+.navBarOuter {
+  background-color: black;
+  height: 45px;
+  margin-top: 15px;
+  color: white;
+  width: 100%;
+}
+
+.navBar {
+  margin: 0px 0px 0px 10px;
+}
+
+/* -----------------------------------------------------------------
+Link Bar
+----------------------------------------------------------------- */
+
+.linkBarOuter {
+  background-color: dimgray;
+  height: 45px;
+  margin-top: 0px;
+  color: white;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.linkBar {
+  margin: 0px 10px 0px 0px;
+}
+
+/* -----------------------------------------------------------------
+Home
+----------------------------------------------------------------- */
