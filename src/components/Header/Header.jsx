@@ -46,10 +46,10 @@ function Header() {
         </div>
 
         <div className="headerFSSE">
-          <Typography variant="body1" mt={0} mb={-0.5} gutterBottom>Full</Typography>
-          <Typography variant="body1" mt={0} mb={-0.1} gutterBottom>Stack</Typography>
+          <Typography variant="body1" mt={0} mb={0} gutterBottom>Full-Stack</Typography>
+          {/* <Typography variant="body1" mt={0} mb={-0.1} gutterBottom>Stack</Typography> */}
           <Typography variant="body1" mt={0} mb={-0.5} gutterBottom>Software</Typography>
-          <Typography variant="body1" mt={0} mb={0} gutterBottom>Engineer</Typography>
+          <Typography variant="body1" mt={0} mb={0} gutterBottom>Developer</Typography>
         </div>
 
       </div>

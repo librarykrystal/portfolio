@@ -13,7 +13,9 @@ import '@fontsource/andika/700.css';
 import IconButton from '@mui/material/IconButton';
 import HomeIcon from '@mui/icons-material/Home';
 import InfoIcon from '@mui/icons-material/Info';
-import CodeIcon from '@mui/icons-material/Code';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import PortraitIcon from '@mui/icons-material/Portrait';
 import BrushIcon from '@mui/icons-material/Brush';
 
 
@@ -26,10 +28,10 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: '#d9d9d9',
+      main: '#000',
     },
     secondary: {
-      main: "#fff",
+      main: '#fff',
       contrastText: "#fff",
     },
   },
@@ -39,6 +41,7 @@ function Nav() {
 
   const history = useHistory();
 
+  // Makes each view load scrolled to top
   useLayoutEffect(() => {
     window.scrollTo(0, 0)
   }, []);
@@ -55,28 +58,60 @@ function Nav() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="navBarOuter">
-        <div className="navBar">
+      <div className="navBarOuter"></div>
+      <div className="linkBarOuter">
+        {/* <div className="linkBar"> */}
 
-          {/* HOME */}
-          <IconButton aria-label="home"
-            className="navIconBtn"
-            color="secondary"
-            onClick={goHome}
-          >
-            <HomeIcon sx={{ fontSize: 26 }} />
-          </IconButton>
+          <div className="linkBarLeft">
+            {/* HOME */}
+            <IconButton aria-label="home"
+              className="navIconBtn"
+              color="secondary"
+              onClick={goHome}
+            >
+              <HomeIcon sx={{ fontSize: 26 }} />
+            </IconButton>
 
-          {/* ABOUT */}
-          <IconButton aria-label="about"
-            className="navIconBtn"
-            color="secondary"
-            onClick={goAbout}
-          >
-            <InfoIcon sx={{ fontSize: 26 }} />
-          </IconButton>
+            {/* ABOUT */}
+            <IconButton aria-label="about"
+              className="navIconBtn"
+              color="secondary"
+              onClick={goAbout}
+            >
+              <InfoIcon sx={{ fontSize: 26 }} />
+            </IconButton>
+          </div>
 
-        </div>
+          <div className="linkBarRight">
+            {/* LINKEDIN */}
+            <IconButton aria-label="linkedIn"
+              className="navLinkIconBtn"
+              color="primary"
+              href="https://www.linkedin.com/in/krystal-frost"
+            >
+              <LinkedInIcon sx={{ fontSize: 26 }} />
+            </IconButton>
+
+            {/* GITHUB */}
+            <IconButton aria-label="gitHub"
+              className="navLinkIconBtn"
+              color="primary"
+              href="https://github.com/librarykrystal"
+            >
+              <GitHubIcon sx={{ fontSize: 26 }} />
+            </IconButton>
+
+            {/* GALLERY OF FROST */}
+            <IconButton aria-label="galleryOfFrost"
+              className="navLinkIconBtn"
+              color="primary"
+              href="https://www.krystalfrost.com/"
+            >
+              <BrushIcon sx={{ fontSize: 26 }} />
+            </IconButton>
+          </div>
+
+        {/* </div> */}
       </div>
     </ThemeProvider>
   );
