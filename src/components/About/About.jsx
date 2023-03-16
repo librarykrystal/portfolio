@@ -1,6 +1,8 @@
 import React, { useLayoutEffect } from "react";
 import {useHistory} from 'react-router-dom';
 
+import selfPhoto from './self.png';
+
 // Material UI Imports
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
@@ -37,12 +39,10 @@ function About() {
   return (
     <ThemeProvider theme={theme}>
       <div className="container">
-        <div className="photo">
-          
-        </div>
+        <img className="photo" src={selfPhoto}></img>
         <div className="intro">
           <Typography variant="body1" mt={0} mb={0} sx={{ textIndent: "40px", textAlign: "justify"}}gutterBottom>
-            I’m a creative type and a puzzle-solver, full-stack trained with an affinity for front-end design.  When I’m not working in code, I can be found painting, writing, taking creative classes, or wandering my favorite museums.
+            I’m a creative type and a puzzle-solver, full-stack trained with an affinity for front-end design.  When I’m not working in code, I can be found painting, writing, sipping coffee with pals, or wandering my favorite museums.
           </Typography>
         </div>
       </div>
