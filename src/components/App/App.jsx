@@ -8,6 +8,8 @@ import {
 import './App.css';
 import Header from '../Header/Header';
 import Nav from '../Nav/Nav';
+import Home from '../Home/Home';
+import About from '../About/About';
 
 
 function App() {
@@ -20,9 +22,15 @@ function App() {
         <Nav />
         <Switch>
           <Redirect exact from="/" to="/home" />
+
           <Route exact path="/home">
-            {/* <Home /> */}
+            <Home />
           </Route>
+
+          <Route exact path="/about">
+            <About />
+          </Route>
+
         </Switch>
       </div>
     </Router>

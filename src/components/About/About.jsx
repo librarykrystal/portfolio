@@ -1,14 +1,13 @@
 import React, { useLayoutEffect } from "react";
+import {useHistory} from 'react-router-dom';
 
 // Material UI Imports
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import grey from '@mui/material/colors/grey';
 import Typography from '@mui/material/Typography';
 import '@fontsource/cabin/400.css';
 import '@fontsource/cabin/700.css';
 import '@fontsource/andika/400.css';
 import '@fontsource/andika/700.css';
-
 
 // Material UI Theming
 const theme = createTheme({
@@ -19,16 +18,16 @@ const theme = createTheme({
   },
   palette: {
     primary: {
-      main: '#d9d9d9',
+      main: '#000',
     },
     secondary: {
-      main: grey[700],
+      main: '#fff',
       contrastText: "#fff",
     },
   },
 });
 
-function Header() {
+function About() {
 
   // Makes each view load scrolled to top
   useLayoutEffect(() => {
@@ -37,23 +36,18 @@ function Header() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="headerOuter">
-
-        <div className="headerName">
-          <Typography variant="h3" mt={2} mb={0} gutterBottom>
-            Krystal Frost
+      <div className="container">
+        <div className="photo">
+          
+        </div>
+        <div className="intro">
+          <Typography variant="body1" mt={0} mb={0} sx={{ textIndent: "40px", textAlign: "justify"}}gutterBottom>
+            I’m a creative type and a puzzle-solver, full-stack trained with an affinity for front-end design.  When I’m not working in code, I can be found painting, writing, taking creative classes, or wandering my favorite museums.
           </Typography>
         </div>
-
-        <div className="headerFSSD">
-          <Typography variant="body1" mt={0} mb={0} gutterBottom>Full-Stack</Typography>
-          <Typography variant="body1" mt={0} mb={-0.5} gutterBottom>Software</Typography>
-          <Typography variant="body1" mt={0} mb={0} gutterBottom>Developer</Typography>
-        </div>
-
       </div>
     </ThemeProvider>
   );
 }
 
-export default Header;
+export default About;

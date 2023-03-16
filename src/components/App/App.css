@@ -10,7 +10,6 @@ body {
   background-color: white;
 }
 
-
 /* -----------------------------------------------------------------
 Header
 ----------------------------------------------------------------- */
@@ -32,7 +31,7 @@ Header
   justify-content: center;
 }
 
-.headerFSSE {
+.headerFSSD {
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 0.2);
@@ -51,7 +50,7 @@ Header
 Nav Bar
 ----------------------------------------------------------------- */
 
-.navBarOuter {
+.navBarUpper {
   background-color: black;
   height: 25px;
   margin-top: 15px;
@@ -59,43 +58,57 @@ Nav Bar
   width: 100%;
 }
 
-/* .navBar {
-  margin: 0px 0px 0px 10px;
-} */
-
-/* -----------------------------------------------------------------
-Link Bar
------------------------------------------------------------------ */
-
-.linkBarOuter {
-  /* background-color: #008860; */
+.navBarLower {
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 3%, rgba(9,113,118,1) 65%, rgba(142,220,237,1) 100%);
   height: 45px;
   margin-top: 0px;
   color: white;
   width: 100%;
-  /* display: flex;
-  justify-content: flex-end; */
   display: grid;
   grid-template-columns: 2;
 }
 
-/* .linkBar {
-  margin: 0px 10px 0px 0px;
-} */
-
-.linkBarLeft {
+.navLinksLeft {
   grid-column-start: 1;
   display: flex;
   justify-content: flex-start;
 }
 
-.linkBarRight {
+.navLinksRight {
   grid-column-start: 2;
   display: flex;
   justify-content: flex-end;
 }
 
 /* -----------------------------------------------------------------
+Content Container
+----------------------------------------------------------------- */
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -----------------------------------------------------------------
 Home
 ----------------------------------------------------------------- */
+
+
+/* -----------------------------------------------------------------
+About
+----------------------------------------------------------------- */
+
+.photo {
+  border: 2px solid black;
+  width: 250px;
+  height: 250px;
+}
+
+.intro {
+  width: 75%;
+  margin-top: 20px;
+  justify-items: center;
+}

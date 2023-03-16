@@ -58,60 +58,56 @@ function Nav() {
 
   return (
     <ThemeProvider theme={theme}>
-      <div className="navBarOuter"></div>
-      <div className="linkBarOuter">
-        {/* <div className="linkBar"> */}
+      <div className="navBarUpper"></div>
 
-          <div className="linkBarLeft">
-            {/* HOME */}
-            <IconButton aria-label="home"
-              className="navIconBtn"
-              color="secondary"
-              onClick={goHome}
-            >
-              <HomeIcon sx={{ fontSize: 26 }} />
-            </IconButton>
+      <div className="navBarLower">
 
-            {/* ABOUT */}
-            <IconButton aria-label="about"
-              className="navIconBtn"
-              color="secondary"
-              onClick={goAbout}
-            >
-              <InfoIcon sx={{ fontSize: 26 }} />
-            </IconButton>
-          </div>
+        <div className="navLinksLeft">
+          {/* HOME */}
+          <IconButton aria-label="home"
+            className="navIconBtn"
+            color="secondary"
+            onClick={goHome}
+          >
+            <HomeIcon sx={{ fontSize: 26 }} />
+          </IconButton>
+          {/* ABOUT */}
+          <IconButton aria-label="about"
+            className="navIconBtn"
+            color="secondary"
+            onClick={goAbout}
+          >
+            <InfoIcon sx={{ fontSize: 26 }} />
+          </IconButton>
+        </div>
+        
+        <div className="navLinksRight">
+          {/* LINKEDIN */}
+          <IconButton aria-label="linkedIn"
+            className="navIconBtn"
+            color="primary"
+            href="https://www.linkedin.com/in/krystal-frost"
+          >
+            <LinkedInIcon sx={{ fontSize: 26 }} />
+          </IconButton>
+          {/* GITHUB */}
+          <IconButton aria-label="gitHub"
+            className="navIconBtn"
+            color="primary"
+            href="https://github.com/librarykrystal"
+          >
+            <GitHubIcon sx={{ fontSize: 26 }} />
+          </IconButton>
+          {/* GALLERY OF FROST */}
+          <IconButton aria-label="galleryOfFrost"
+            className="navIconBtn"
+            color="primary"
+            href="https://www.krystalfrost.com/"
+          >
+            <BrushIcon sx={{ fontSize: 26 }} />
+          </IconButton>
+        </div>
 
-          <div className="linkBarRight">
-            {/* LINKEDIN */}
-            <IconButton aria-label="linkedIn"
-              className="navLinkIconBtn"
-              color="primary"
-              href="https://www.linkedin.com/in/krystal-frost"
-            >
-              <LinkedInIcon sx={{ fontSize: 26 }} />
-            </IconButton>
-
-            {/* GITHUB */}
-            <IconButton aria-label="gitHub"
-              className="navLinkIconBtn"
-              color="primary"
-              href="https://github.com/librarykrystal"
-            >
-              <GitHubIcon sx={{ fontSize: 26 }} />
-            </IconButton>
-
-            {/* GALLERY OF FROST */}
-            <IconButton aria-label="galleryOfFrost"
-              className="navLinkIconBtn"
-              color="primary"
-              href="https://www.krystalfrost.com/"
-            >
-              <BrushIcon sx={{ fontSize: 26 }} />
-            </IconButton>
-          </div>
-
-        {/* </div> */}
       </div>
     </ThemeProvider>
   );
