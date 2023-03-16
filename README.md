@@ -1,2 +1,3 @@
-# portfolio
-Personal portfolio site.
+# Hello!
+
+I'm Krystal Frost.  Welcome to my personal portfolio site.
