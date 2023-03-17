@@ -6,6 +6,9 @@ import rundownDetails from './theRundown_details.png';
 import rundownEdit from './theRundown_edit.png';
 import movieSetList from './myMovieSet_list.png';
 import movieSetDetails from './myMovieSet_details2.png';
+import galleryAll from './gallerySnaps_all.png';
+import galleryDesc1 from './gallerySnaps_desc1.png';
+import galleryDesc2 from './gallerySnaps_desc2.png';
 
 
 // Material UI Imports
@@ -110,6 +113,34 @@ function Projects() {
               size="small"
               startIcon={<GitHubIcon />}
               href="https://github.com/librarykrystal/weekend-movie-sagas"
+              >See it on GitHub
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        {/* MY SNAPS GALLERY */}
+        <div className="projectsBorderContainer">
+          <div className="projectHeaderBox">
+            <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} sx={{ fontSize: 20 }} gutterBottom>
+              My Snaps Gallery
+            </Typography>
+            <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} gutterBottom>
+              Photo Gallery with Toggle Descriptions and Like Counters
+            </Typography>
+          </div>
+          <div className="projectBody">
+            <div className="projectImages">
+              <img className="appImage" src={galleryDesc2}></img>
+              <img className="appImage" src={galleryDesc1}></img>
+            </div>
+            <div className="projectButtons">
+              <Button
+              variant="contained"
+              color="info"
+              size="small"
+              startIcon={<GitHubIcon />}
+              href="https://github.com/librarykrystal/weekend-react-gallery"
               >See it on GitHub
               </Button>
             </div>
