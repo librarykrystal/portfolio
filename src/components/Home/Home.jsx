@@ -44,9 +44,9 @@ function Home() {
         <div className="skillsValuesContainer">
 
           <div className="skillsBorderContainer">
-            <div className="skillsContainer">
+
               <div className="skillsHeaderBox">
-                <Typography className="skillsHeaderText" variant="h6" mt={0} mb={0} sx={{ fontSize: 20 }} gutterBottom>
+                <Typography className="skillsHeaderText" variant="h6" mt={0.4} mb={0} sx={{ fontSize: 20 }} gutterBottom>
                   Skills
                 </Typography>
               </div>
@@ -57,13 +57,13 @@ function Home() {
                 <Typography variant="body1" mt={0} mb={0} gutterBottom>Node • npm • Express</Typography>
                 <Typography variant="body1" mt={0} mb={1} gutterBottom>Ajax • Axios • PostgreSQL</Typography>
               </div>
-            </div>
+
           </div>
 
           <div className="valuesBorderContainer">
-            <div className="skillsContainer">
+
               <div className="skillsHeaderBox">
-                <Typography className="skillsHeaderText" variant="h6" mt={0} mb={0} sx={{ fontSize: 20 }} gutterBottom>
+                <Typography className="skillsHeaderText" variant="h6" mt={0.4} mb={0} sx={{ fontSize: 20 }} gutterBottom>
                   Values
                 </Typography>
               </div>
@@ -74,7 +74,7 @@ function Home() {
                 <Typography variant="body1" mt={0} mb={0} gutterBottom>Patience</Typography>
                 <Typography variant="body1" mt={0} mb={1} gutterBottom>Accountability</Typography>
               </div>
-            </div>
+
           </div>
 
         </div>
