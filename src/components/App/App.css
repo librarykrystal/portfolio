@@ -104,7 +104,7 @@ Home — Skills / Values
 
 .skillsValuesContainer {
   display: grid;
-  grid-template-columns: 2;
+  grid-template-columns: 3;
 }
 
 .skillsBorderContainer {
@@ -146,6 +146,20 @@ Home — Skills / Values
   background-color: black;
   margin-top: 20px;
   margin-left: 25px;
+  margin-right: 25px;
+  justify-self: center;
+  display: grid;
+  grid-template-rows: 2;
+  border-bottom: 12px solid black;
+}
+
+.wantsBorderContainer {
+  grid-column-start: 3;
+  min-width: 150px;
+  max-width: 250px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 25px;
   justify-self: center;
   display: grid;
   grid-template-rows: 2;
@@ -164,13 +178,17 @@ Projects
 
 .projectsHeaderBox {
   grid-row-start: 1;
-  height: 35px;
+  height: 45px;
   margin-top: 15px;
   margin-bottom: 0px;
   color: white;
   /* background: linear-gradient(90deg, rgba(9,113,118,1) 0%, rgba(2,0,36,1) 50%, rgba(9,113,118,1) 100%); */
   background: linear-gradient(90deg, #af6a5b 0%, rgba(9,0,36,1) 40%, rgba(0,0,0,1) 50%, rgba(9,0,36,1) 60%, #af6a5b 100%);
   text-align: center;
+}
+
+.projectsHeaderText {
+  padding-top: 5px;
 }
 
 .projectsBorderContainer {
@@ -203,12 +221,16 @@ Projects
   justify-content: space-around;
 }
 
-.rundownImage {
-  width: 125px;
+.appImage {
+  height: 250px;
   border: 1px solid gray;
   box-shadow: 1px 1px 2px;
   margin: 3px 10px 3px 10px;
 }
+
+/* .movieSetImage {
+
+} */
 
 .projectButtons {
   display: flex;

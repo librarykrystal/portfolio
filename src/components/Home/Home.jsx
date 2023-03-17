@@ -73,6 +73,21 @@ function Home() {
               </div>
           </div>
 
+          <div className="wantsBorderContainer">
+            <div className="skillsHeaderBox">
+              <Typography className="skillsHeaderText" variant="h6" mt={0.4} mb={0} sx={{ fontSize: 20 }} gutterBottom>
+                Style
+              </Typography>
+            </div>
+            <div className="skillsBody">
+              <Typography variant="body1" mt={1} mb={0} gutterBottom>Remote Work</Typography>
+              <Typography variant="body1" mt={0} mb={0} gutterBottom>Open Communication</Typography>
+              <Typography variant="body1" mt={0} mb={0} gutterBottom>Flexible Hours</Typography>
+              <Typography variant="body1" mt={0} mb={0} gutterBottom>Supportive Teams</Typography>
+              <Typography variant="body1" mt={0} mb={1} gutterBottom>Room for Creativity</Typography>
+            </div>
+          </div>
+
         </div>
       </div>
 
