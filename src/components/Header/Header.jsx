@@ -46,9 +46,9 @@ function Header() {
         </div>
 
         <div className="headerFSSD">
-          <Typography variant="body1" mt={0} mb={0} gutterBottom>Full-Stack</Typography>
-          <Typography variant="body1" mt={0} mb={-0.5} gutterBottom>Software</Typography>
-          <Typography variant="body1" mt={0} mb={0} gutterBottom>Developer</Typography>
+          <Typography variant="body1" mt={0.1} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid #194656", borderRight: "5px solid #23626b"}} gutterBottom>Full-Stack</Typography>
+          <Typography variant="body1" mt={0} mb={-0.4} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid black", borderRight: "5px solid black"}} gutterBottom>Software</Typography>
+          <Typography variant="body1" mt={0} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid black", borderRight: "5px solid black"}} gutterBottom>Developer</Typography>
         </div>
 
       </div>

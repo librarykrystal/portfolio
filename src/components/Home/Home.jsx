@@ -37,11 +37,33 @@ function Home() {
   return (
     <ThemeProvider theme={theme}>
       <div className="container">
-        <div className="skills">
-          <Typography variant="body1" mt={2} mb={0} gutterBottom>
-            Home stuff will go here.
-          </Typography>
+
+        <div className="skillsContainer">
+          <div className="skillsHeaderBox">
+            <Typography className="skillsHeaderText" variant="h6" mt={0} mb={0} sx={{ fontSize: 22 }} gutterBottom>
+              Skills
+            </Typography>
+          </div>
+          <div className="skillsBody">
+            <Typography variant="body1" mt={2} mb={0} gutterBottom>
+              Skills will go here.
+            </Typography>
+          </div>
         </div>
+
+        <div className="projectsContainer">
+          <div className="projectsHeaderBox">
+          <Typography className="projectsHeaderText" variant="h6" mt={0} mb={0} sx={{ fontSize: 22 }} gutterBottom>
+            Projects
+          </Typography>
+          </div>
+          <div className="projectsBody">
+            <Typography variant="body1" mt={2} mb={0} gutterBottom>
+              Projects will go here.
+            </Typography>
+          </div>
+        </div>
+
       </div>
     </ThemeProvider>
   );

@@ -26,7 +26,6 @@ Header
 }
 
 .headerName {
-  margin-left: 20px;
   grid-row-start: 1;
   justify-content: center;
 }
@@ -34,7 +33,6 @@ Header
 .headerFSSD {
   display: flex;
   flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.2);
   color: white;
   grid-row-start: 2;
   width: 100px;
@@ -42,7 +40,6 @@ Header
   top: 90px;
   height: 70px;
   justify-self: center;
-  justify-content: center;
   text-align: center;
 }
 
@@ -96,13 +93,47 @@ Content Container
 Home
 ----------------------------------------------------------------- */
 
+.skillsContainer {
+  min-width: 300px;
+  max-width: 500px;
+  border: 5px solid black;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.skillsHeaderBox {
+  height: 35px;
+  color: white;
+  background: linear-gradient(90deg, rgba(14,38,62,1) 0%, rgba(9,113,118,1) 65%, rgba(75,145,154,1) 100%);
+  text-align: center;
+}
+
+.skillsHeaderText {
+  margin-top: 10px;
+}
+
+.projectsContainer {
+  width: 98%;
+  border: 5px solid black;
+}
+
+.projectsHeaderBox {
+  height: 35px;
+  color: white;
+  background: linear-gradient(90deg, rgba(2,5,37,1) 3%, rgba(9,113,118,1) 65%, rgba(133,199,214,1) 100%);
+  text-align: center;
+}
+
+.projectsHeaderText {
+  margin-top: 10px;
+}
 
 /* -----------------------------------------------------------------
 About
 ----------------------------------------------------------------- */
 
 .photo {
-  border: 6px solid black;
+  border: 9px solid black;
   max-width: 250px;
   margin-top: 30px;
 }
