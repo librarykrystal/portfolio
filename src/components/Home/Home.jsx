@@ -94,6 +94,11 @@ function Home() {
       {/* Consuming Projects from Component */}
       <Projects />
 
+      <center>
+      <Typography variant="body1" gutterBottom>© Krystal Frost</Typography>
+      </center>
+      <br/>
+
     </ThemeProvider>
   );
 }

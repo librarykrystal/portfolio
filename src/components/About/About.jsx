@@ -47,6 +47,12 @@ function About() {
           </Typography>
         </div>
       </div>
+
+      <center>
+      <Typography variant="body1" mt={15} gutterBottom>© Krystal Frost</Typography>
+      </center>
+      <br/>
+
     </ThemeProvider>
   );
 }
