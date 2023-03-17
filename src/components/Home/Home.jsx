@@ -44,24 +44,21 @@ function Home() {
         <div className="skillsValuesContainer">
 
           <div className="skillsBorderContainer">
-
-              <div className="skillsHeaderBox">
-                <Typography className="skillsHeaderText" variant="h6" mt={0.4} mb={0} sx={{ fontSize: 20 }} gutterBottom>
-                  Skills
-                </Typography>
-              </div>
-              <div className="skillsBody">
-                <Typography variant="body1" mt={1} mb={0} gutterBottom>HTML • CSS • JavaScript</Typography>
-                <Typography variant="body1" mt={0} mb={0} gutterBottom>JQuery • React • Redux</Typography>
-                <Typography variant="body1" mt={0} mb={0} gutterBottom>Photoshop • Material UI</Typography>
-                <Typography variant="body1" mt={0} mb={0} gutterBottom>Node • npm • Express</Typography>
-                <Typography variant="body1" mt={0} mb={1} gutterBottom>Ajax • Axios • PostgreSQL</Typography>
-              </div>
-
+            <div className="skillsHeaderBox">
+              <Typography className="skillsHeaderText" variant="h6" mt={0.4} mb={0} sx={{ fontSize: 20 }} gutterBottom>
+                Skills
+              </Typography>
+            </div>
+            <div className="skillsBody">
+              <Typography variant="body1" mt={1} mb={0} gutterBottom>HTML • CSS • JavaScript</Typography>
+              <Typography variant="body1" mt={0} mb={0} gutterBottom>JQuery • React • Redux</Typography>
+              <Typography variant="body1" mt={0} mb={0} gutterBottom>Photoshop • Material UI</Typography>
+              <Typography variant="body1" mt={0} mb={0} gutterBottom>Node • npm • Express</Typography>
+              <Typography variant="body1" mt={0} mb={1} gutterBottom>Ajax • Axios • PostgreSQL</Typography>
+            </div>
           </div>
 
           <div className="valuesBorderContainer">
-
               <div className="skillsHeaderBox">
                 <Typography className="skillsHeaderText" variant="h6" mt={0.4} mb={0} sx={{ fontSize: 20 }} gutterBottom>
                   Values
@@ -74,7 +71,6 @@ function Home() {
                 <Typography variant="body1" mt={0} mb={0} gutterBottom>Patience</Typography>
                 <Typography variant="body1" mt={0} mb={1} gutterBottom>Accountability</Typography>
               </div>
-
           </div>
 
         </div>

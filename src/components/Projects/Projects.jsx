@@ -32,7 +32,7 @@ const theme = createTheme({
       contrastText: "#fff",
     },
     info: {
-      main: '#225f69',
+      main: '#9c454d',
       contrastText: "#fff",
     },
   },
@@ -48,13 +48,10 @@ function Projects() {
   return (
     <ThemeProvider theme={theme}>
 
-      <br />
-      <div className="projectsBar">
-        <div className="projectsHeaderBox">
-          <Typography className="projectsHeaderText" variant="body1" mt={0} mb={0} sx={{ fontSize: 20 }} gutterBottom>
-            Projects
-          </Typography>
-        </div>
+      <div className="projectsHeaderBox">
+        <Typography className="projectsHeaderText" variant="body1" mt={0} mb={0} sx={{ fontSize: 22 }} gutterBottom>
+          Projects
+        </Typography>
       </div>
 
       <div className="projectsOuterContainer">

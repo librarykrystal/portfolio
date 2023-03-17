@@ -40,13 +40,14 @@ function Header() {
       <div className="headerOuter">
 
         <div className="headerName">
-          <Typography variant="h3" mt={2} mb={0} gutterBottom>
+          <Typography variant="h3" mt={1.4} mb={0} sx={{ fontSize: 52 }} gutterBottom>
             Krystal Frost
           </Typography>
         </div>
 
         <div className="headerFSSD">
-          <Typography variant="body1" mt={0.1} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid #194656", borderRight: "5px solid #23626b"}} gutterBottom>Full-Stack</Typography>
+          {/* <Typography variant="body1" mt={0.1} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid #194656", borderRight: "5px solid #23626b"}} gutterBottom>Full-Stack</Typography> */}
+          <Typography variant="body1" mt={0.1} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid #6f2c3f", borderRight: "5px solid #8f454c"}} gutterBottom>Full-Stack</Typography>
           <Typography variant="body1" mt={0} mb={-0.4} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid black", borderRight: "5px solid black"}} gutterBottom>Software</Typography>
           <Typography variant="body1" mt={0} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid black", borderRight: "5px solid black"}} gutterBottom>Developer</Typography>
         </div>
