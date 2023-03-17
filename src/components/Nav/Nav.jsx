@@ -9,6 +9,7 @@ import '@fontsource/cabin/400.css';
 import '@fontsource/cabin/700.css';
 import '@fontsource/andika/400.css';
 import '@fontsource/andika/700.css';
+import '@fontsource/albert-sans/400.css';
 
 import IconButton from '@mui/material/IconButton';
 import HomeIcon from '@mui/icons-material/Home';
@@ -23,7 +24,7 @@ import BrushIcon from '@mui/icons-material/Brush';
 const theme = createTheme({
   typography: {
     fontFamily: [
-      'Andika',
+      'Albert Sans',
     ],
   },
   palette: {

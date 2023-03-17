@@ -8,13 +8,13 @@ import '@fontsource/cabin/400.css';
 import '@fontsource/cabin/700.css';
 import '@fontsource/andika/400.css';
 import '@fontsource/andika/700.css';
-
+import '@fontsource/albert-sans/400.css';
 
 // Material UI Theming
 const theme = createTheme({
   typography: {
     fontFamily: [
-      'Andika',
+      'Albert Sans',
     ],
   },
   palette: {
