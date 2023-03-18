@@ -26,7 +26,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const theme = createTheme({
   typography: {
     fontFamily: 'Albert Sans',
-    h5: {
+    h4: {
       fontFamily: 'Rock Salt',
     }
   },
@@ -60,10 +60,16 @@ function Projects() {
           PROJECTS
         </Typography>
       </div> */}
-
+{/* 
       <div className="projectsHeaderBox">
         <Typography className="projectsHeaderText" variant="h4" fontWeight="bold" sx={{fontSize: 28, width: "150px", borderLeft: "5px solid #6f2c3f", borderRight: "5px solid #8f454c"}} gutterBottom>
           Projects
+        </Typography>
+      </div> */}
+
+      <div className="projectsHeaderBox">
+        <Typography className="projectsHeaderText" variant="h4" fontWeight="bold" sx={{fontSize: 18}} gutterBottom>
+          PROJECTS
         </Typography>
       </div>
 
@@ -72,7 +78,7 @@ function Projects() {
         {/* THE RUNDOWN */}
         <div className="projectsBorderContainer">
             <div className="projectHeaderBox">
-              <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} sx={{ fontSize: 20 }} gutterBottom>
+              <Typography className="projectHeaderText" variant="h5" mt={0} mb={0} fontWeight="bold" gutterBottom>
                 The Rundown
               </Typography>
               <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} gutterBottom>
@@ -101,7 +107,7 @@ function Projects() {
         {/* MY MOVIE SET */}
         <div className="projectsBorderContainer">
           <div className="projectHeaderBox">
-            <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} sx={{ fontSize: 20 }} gutterBottom>
+            <Typography className="projectHeaderText" variant="h5" mt={0} mb={0} fontWeight="bold" gutterBottom>
               My Movie Set
             </Typography>
             <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} gutterBottom>
@@ -129,11 +135,11 @@ function Projects() {
         {/* MY SNAPS GALLERY */}
         <div className="projectsBorderContainer">
           <div className="projectHeaderBox">
-            <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} sx={{ fontSize: 20 }} gutterBottom>
+            <Typography className="projectHeaderText" variant="h5" mt={0} mb={0} fontWeight="bold"  gutterBottom>
               My Snaps Gallery
             </Typography>
             <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} gutterBottom>
-              Photo Gallery with Toggle Descriptions and Like Counters
+              Photo Gallery with Descriptions and Likes
             </Typography>
           </div>
           <div className="projectBody">
@@ -153,6 +159,12 @@ function Projects() {
             </div>
           </div>
         </div>
+
+        <br/>
+        <center>
+          <Typography variant="body1" color="white" gutterBottom>© Krystal Frost</Typography>
+        </center>
+        <br/>
 
       </div>
     </ThemeProvider>
