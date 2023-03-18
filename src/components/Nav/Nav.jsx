@@ -103,7 +103,7 @@ function Nav() {
           <IconButton aria-label="galleryOfFrost"
             className="navIconBtn"
             color="primary"
-            href="https://www.krystalfrost.com/"
+            href="https://www.galleryoffrost.com/"
           >
             <BrushIcon sx={{ fontSize: 26 }} />
           </IconButton>
