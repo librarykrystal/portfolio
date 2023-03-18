@@ -264,7 +264,7 @@ Generator
 .generatorBox {
   margin-top: 30px;
   border-bottom: 12px solid black;
-  width: 260px;
+  width: 270px;
   height: 180px;
   background: linear-gradient(180deg, #f2f2f2 40%, white 60%, white 80%, #f2f2f2 100%);
 }

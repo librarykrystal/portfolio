@@ -45,7 +45,7 @@ function Generator() {
     "Cryptograms",
     "Coen Brothers Films",
     "String Lights",
-    "Banned Books",
+    "Reading Banned Books",
     "B&W Photography",
     "Sculpture Gardens",
     "Meditating",
