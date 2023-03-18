@@ -9,13 +9,16 @@ import '@fontsource/cabin/700.css';
 import '@fontsource/andika/400.css';
 import '@fontsource/andika/700.css';
 import '@fontsource/albert-sans/400.css';
+import '@fontsource/special-elite/400.css';
+import '@fontsource/rock-salt/400.css';
 
 // Material UI Theming
 const theme = createTheme({
   typography: {
-    fontFamily: [
-      'Albert Sans',
-    ],
+    fontFamily: 'Albert Sans',
+    h3: {
+      fontFamily: 'Rock Salt',
+    }
   },
   palette: {
     primary: {
