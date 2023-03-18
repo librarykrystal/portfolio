@@ -32,30 +32,36 @@ const theme = createTheme({
   },
 });
 
-const things = [
-  "Craft Projects",
-  "Tom Waits",
-  "Crunchy Leaves",
-  "Grey Cats",
-  "Licorice Tea",
-  "Cryptograms",
-  "Coen Bros Films",
-  "String Lights",
-  "Banned Books",
-  "B&W Photography",
-  "Sculpture Gardens",
-  "Meditation",
-  "Practical Effects",
-  "Journaling",
-  "Deckle Edges",
-  "Learning"
-];
 
-const getRandomThing = () => {
-  return things[Math.floor(Math.random() * things.length)];
-};
 
 function Generator() {
+
+  const things = [
+    "Craft Projects",
+    "Tom Waits",
+    "Crunchy Leaves",
+    "Grey Cats",
+    "Licorice Tea",
+    "Cryptograms",
+    "Coen Brothers Films",
+    "String Lights",
+    "Banned Books",
+    "B&W Photography",
+    "Sculpture Gardens",
+    "Meditating",
+    "Practical Effects",
+    "Journaling",
+    "Deckle Edges",
+    "Songs about the Moon",
+    "Black Cold Brew",
+    "Wrought Iron",
+    "Irises",
+    "Tattoos"
+  ];
+  
+  const getRandomThing = () => {
+    return things[Math.floor(Math.random() * things.length)];
+  };
 
   const [thing, setThing] = useState(getRandomThing());
 
