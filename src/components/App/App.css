@@ -21,7 +21,7 @@ Header
   flex-direction: column;
   grid-template-rows: 2;
   top: 0;
-  height: 85px;
+  height: 95px;
   overflow: visible;
 }
 
@@ -37,7 +37,7 @@ Header
   grid-row-start: 2;
   width: 100px;
   position: absolute;
-  top: 100px;
+  top: 110px;
   height: 70px;
   justify-self: center;
   text-align: center;
@@ -102,7 +102,7 @@ Home — Skills / Values
   grid-column-start: 1;
   width: 220px;
   background-color: black;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-right: 25px;
   justify-self: center;
   display: grid;
@@ -135,7 +135,7 @@ Home — Skills / Values
   min-width: 150px;
   max-width: 250px;
   background-color: black;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: 25px;
   margin-right: 25px;
   justify-self: center;
@@ -148,7 +148,7 @@ Home — Skills / Values
   grid-column-start: 3;
   width: 220px;
   background-color: black;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: 25px;
   justify-self: center;
   display: grid;
@@ -163,8 +163,8 @@ Projects
 .projectsHeaderBox {
   grid-row-start: 1;
   height: 45px;
-  margin-top: 60px;
-  margin-bottom: 0px;
+  margin-top: 50px;
+  margin-bottom: 5px;
   color: white;
   background: linear-gradient(90deg, #af6a5b 0%, rgba(9,0,36,1) 40%, rgba(0,0,0,1) 50%, rgba(9,0,36,1) 60%, #af6a5b 100%);
   text-align: center;
