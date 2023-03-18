@@ -1,6 +1,7 @@
 import React, { useLayoutEffect } from "react";
 import {useHistory} from 'react-router-dom';
 
+import Generator from '../Generator/Generator';
 import selfPhoto from './self.png';
 
 // Material UI Imports
@@ -47,6 +48,8 @@ function About() {
           </Typography>
         </div>
       </div>
+
+      <Generator />
 
       <center>
       <Typography variant="body1" mt={15} gutterBottom>© Krystal Frost</Typography>

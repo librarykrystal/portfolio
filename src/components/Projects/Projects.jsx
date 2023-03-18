@@ -1,5 +1,4 @@
 import React, { useLayoutEffect } from "react";
-import {useHistory} from 'react-router-dom';
 
 import rundownHome from './theRundown_home.png';
 import rundownDetails from './theRundown_details.png';

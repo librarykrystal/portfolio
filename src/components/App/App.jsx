@@ -14,7 +14,6 @@ import About from '../About/About';
 
 function App() {
 
-
   return(
     <Router>
       <div>
