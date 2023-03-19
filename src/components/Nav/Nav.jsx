@@ -59,9 +59,16 @@ function Nav() {
 
   return (
     <ThemeProvider theme={theme}>
+
+      <div className="navFSSD">
+        <Typography variant="body1" mt={0.1} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid #6f2c3f", borderRight: "5px solid #8f454c"}} gutterBottom>Full-Stack</Typography>
+        <Typography variant="body1" mt={0} mb={-0.4} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid black", borderRight: "5px solid black"}} gutterBottom>Software</Typography>
+        <Typography variant="body1" mt={0} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid black", borderRight: "5px solid black"}} gutterBottom>Developer</Typography>
+      </div>
+
       <div className="navBarUpper"></div>
 
-      <div className="navBarLower">
+      <div className="navBarContent">
 
         <div className="navLinksLeft">
           {/* HOME */}

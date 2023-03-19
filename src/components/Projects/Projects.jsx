@@ -74,6 +74,7 @@ function Projects() {
       </div>
 
       <div className="projectsOuterContainer">
+        <div className="projectsInnerContainer">
 
         {/* THE RUNDOWN */}
         <div className="projectsBorderContainer">
@@ -82,7 +83,7 @@ function Projects() {
                 The Rundown
               </Typography>
               <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} gutterBottom>
-                Artist's Paint Inventory and Wishlist App
+                Artist's Paint Inventory & Wishlist App
               </Typography>
             </div>
             <div className="projectBody">
@@ -139,7 +140,7 @@ function Projects() {
               My Snaps Gallery
             </Typography>
             <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} gutterBottom>
-              Photo Gallery with Descriptions and Likes
+              Gallery with Likes & Toggle Captions
             </Typography>
           </div>
           <div className="projectBody">
@@ -159,8 +160,8 @@ function Projects() {
             </div>
           </div>
         </div>
+        </div>
 
-        <br/>
         <center>
           <Typography variant="body1" color="white" gutterBottom>© Krystal Frost</Typography>
         </center>
