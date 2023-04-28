@@ -57,18 +57,6 @@ function Projects() {
   return (
     <ThemeProvider theme={theme}>
 
-      {/* <div className="projectsHeaderBox">
-        <Typography className="projectsHeaderText" variant="h5" sx={{fontSize: 18, width: "170px", borderLeft: "5px solid #6f2c3f", borderRight: "5px solid #8f454c"}} gutterBottom>
-          PROJECTS
-        </Typography>
-      </div> */}
-{/* 
-      <div className="projectsHeaderBox">
-        <Typography className="projectsHeaderText" variant="h4" fontWeight="bold" sx={{fontSize: 28, width: "150px", borderLeft: "5px solid #6f2c3f", borderRight: "5px solid #8f454c"}} gutterBottom>
-          Projects
-        </Typography>
-      </div> */}
-
       <div className="projectsHeaderBox">
         <Typography className="projectsHeaderText" variant="h4" fontWeight="bold" sx={{fontSize: 18}} gutterBottom>
           PROJECTS
@@ -79,7 +67,7 @@ function Projects() {
         <div className="projectsInnerContainer">
 
         {/* THE RUNDOWN */}
-        <div className="projectsBorderContainer">
+        <div className="projectContainer">
             <div className="projectHeaderBox">
               <Typography className="projectHeaderText" variant="h5" mt={0} mb={0} fontWeight="bold" gutterBottom>
                 The Rundown
@@ -90,9 +78,9 @@ function Projects() {
             </div>
             <div className="projectBody">
               <div className="projectImages">
-                <img className="appImage" src={rundownHome}></img>
-                <img className="appImage" src={rundownDetails}></img>
-                <img className="appImage" src={rundownEdit}></img>
+                <img className="appImageRundown" src={rundownHome}></img>
+                <img className="appImageRundown" src={rundownDetails}></img>
+                <img className="appImageRundown" src={rundownEdit}></img>
               </div>
               <div className="projDescText">
                 <Typography variant="body1" mt={0} mb={0} gutterBottom>
@@ -113,7 +101,7 @@ function Projects() {
         </div>
 
         {/* IDEAL LIVING WEEK */}
-        <div className="projectsBorderContainer">
+        <div className="projectContainer">
           <div className="projectHeaderBox">
             <Typography className="projectHeaderText" variant="h5" mt={0} mb={0} fontWeight="bold" gutterBottom>
               Ideal Living Week
@@ -124,8 +112,8 @@ function Projects() {
           </div>
           <div className="projectBody">
             <div className="projectImages">
-              <img className="appImage" src={idealQuestions}></img>
-              <img className="appImage" src={idealPriorities}></img>
+              <img className="appImage2" src={idealQuestions}></img>
+              <img className="appImage2" src={idealPriorities}></img>
             </div>
             <div className="projDescText">
                 <Typography variant="body1" mt={0} mb={0} gutterBottom>
@@ -146,7 +134,7 @@ function Projects() {
         </div>
 
         {/* MY MOVIE SET */}
-        <div className="projectsBorderContainer">
+        <div className="projectContainer">
           <div className="projectHeaderBox">
             <Typography className="projectHeaderText" variant="h5" mt={0} mb={0} fontWeight="bold" gutterBottom>
               My Movie Set
@@ -157,8 +145,8 @@ function Projects() {
           </div>
           <div className="projectBody">
             <div className="projectImages">
-              <img className="appImage" src={movieSetList}></img>
-              <img className="appImage" src={movieSetDetails}></img>
+              <img className="appImage2" src={movieSetList}></img>
+              <img className="appImage2" src={movieSetDetails}></img>
             </div>
             <div className="projDescText">
                 <Typography variant="body1" mt={0} mb={0} gutterBottom>
@@ -179,7 +167,7 @@ function Projects() {
         </div>
 
         {/* MY SNAPS GALLERY */}
-        <div className="projectsBorderContainer">
+        <div className="projectContainer">
           <div className="projectHeaderBox">
             <Typography className="projectHeaderText" variant="h5" mt={0} mb={0} fontWeight="bold"  gutterBottom>
               My Snaps Gallery
@@ -190,8 +178,8 @@ function Projects() {
           </div>
           <div className="projectBody">
             <div className="projectImages">
-              <img className="appImage" src={galleryDesc2}></img>
-              <img className="appImage" src={galleryDesc1}></img>
+              <img className="appImage2" src={galleryDesc2}></img>
+              <img className="appImage2" src={galleryDesc1}></img>
             </div>
             <div className="projDescText">
                 <Typography variant="body1" mt={0} mb={0} gutterBottom>
