@@ -92,6 +92,11 @@ function Projects() {
                 <img className="appImage" src={rundownDetails}></img>
                 <img className="appImage" src={rundownEdit}></img>
               </div>
+              <div className="projDescText">
+                <Typography variant="body1" mt={0} mb={0} gutterBottom>
+                This two-week solo project lets users inventory, wishlist, and filter artist's paint supplies. This app uses React, Redux, postgreSQL, CSS, and Material-UI.
+                </Typography>
+              </div>
               <div className="projectButtons">
                 <Button
                 variant="contained"
@@ -120,6 +125,11 @@ function Projects() {
               <img className="appImage" src={movieSetList}></img>
               <img className="appImage" src={movieSetDetails}></img>
             </div>
+            <div className="projDescText">
+                <Typography variant="body1" mt={0} mb={0} gutterBottom>
+                This weekend challenge displays a collection of clickable film posters from a database.  A details page shows description and genre(s).
+                </Typography>
+              </div>
             <div className="projectButtons">
               <Button
               variant="contained"
@@ -148,6 +158,11 @@ function Projects() {
               <img className="appImage" src={galleryDesc2}></img>
               <img className="appImage" src={galleryDesc1}></img>
             </div>
+            <div className="projDescText">
+                <Typography variant="body1" mt={0} mb={0} gutterBottom>
+                This weekend challenge showcases a set of photographs.  Each photo has a like counter and can be clicked to toggle between image and caption.
+                </Typography>
+              </div>
             <div className="projectButtons">
               <Button
               variant="contained"
