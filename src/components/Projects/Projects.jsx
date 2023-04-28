@@ -8,6 +8,8 @@ import movieSetDetails from './myMovieSet_details2.png';
 import galleryAll from './gallerySnaps_all.png';
 import galleryDesc1 from './gallerySnaps_desc1.png';
 import galleryDesc2 from './gallerySnaps_desc2.png';
+import idealQuestions from './idealLivingWeek_questions.png';
+import idealPriorities from './idealLivingWeek_priorities.png';
 
 
 // Material UI Imports
@@ -92,6 +94,11 @@ function Projects() {
                 <img className="appImage" src={rundownDetails}></img>
                 <img className="appImage" src={rundownEdit}></img>
               </div>
+              <div className="projDescText">
+                <Typography variant="body1" mt={0} mb={0} gutterBottom>
+                This two-week solo project lets users inventory, wishlist, and filter artist's paint supplies. This app uses React, Redux, postgreSQL, CSS, and Material-UI.
+                </Typography>
+              </div>
               <div className="projectButtons">
                 <Button
                 variant="contained"
@@ -100,6 +107,39 @@ function Projects() {
                 startIcon={<GitHubIcon />}
                 href="https://github.com/librarykrystal/artist-inventory"
                 >See it on GitHub
+              </Button>
+            </div>
+          </div>
+        </div>
+
+        {/* IDEAL LIVING WEEK */}
+        <div className="projectsBorderContainer">
+          <div className="projectHeaderBox">
+            <Typography className="projectHeaderText" variant="h5" mt={0} mb={0} fontWeight="bold" gutterBottom>
+              Ideal Living Week
+            </Typography>
+            <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} gutterBottom>
+              Mindfulness and Scheduling App
+            </Typography>
+          </div>
+          <div className="projectBody">
+            <div className="projectImages">
+              <img className="appImage" src={idealQuestions}></img>
+              <img className="appImage" src={idealPriorities}></img>
+            </div>
+            <div className="projDescText">
+                <Typography variant="body1" mt={0} mb={0} gutterBottom>
+                This group project for client Mick White's 100 Year Manifesto includes drag-and-drop prioritization, journaling, and scheduling out an ideal week.
+                </Typography>
+              </div>
+            <div className="projectButtons">
+              <Button
+              variant="contained"
+              color="info"
+              size="small"
+              startIcon={<GitHubIcon />}
+              href="https://github.com/librarykrystal/100ym-ideal-living-week"
+              >See it on GitHub
               </Button>
             </div>
           </div>
@@ -120,6 +160,11 @@ function Projects() {
               <img className="appImage" src={movieSetList}></img>
               <img className="appImage" src={movieSetDetails}></img>
             </div>
+            <div className="projDescText">
+                <Typography variant="body1" mt={0} mb={0} gutterBottom>
+                This weekend challenge displays a collection of clickable film posters from a database.  A details page shows description and genre(s).
+                </Typography>
+              </div>
             <div className="projectButtons">
               <Button
               variant="contained"
@@ -148,6 +193,11 @@ function Projects() {
               <img className="appImage" src={galleryDesc2}></img>
               <img className="appImage" src={galleryDesc1}></img>
             </div>
+            <div className="projDescText">
+                <Typography variant="body1" mt={0} mb={0} gutterBottom>
+                This weekend challenge showcases a set of photographs.  Each photo has a like counter and can be clicked to toggle between image and caption.
+                </Typography>
+              </div>
             <div className="projectButtons">
               <Button
               variant="contained"

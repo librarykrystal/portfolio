@@ -242,6 +242,12 @@ Projects
   justify-content: space-around;
 }
 
+.projDescText {
+  max-width: 300px;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
 .appImage {
   min-height: 150px;
   max-height: 17vw;
