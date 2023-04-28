@@ -175,7 +175,7 @@ Home — Skills / Values
 }
 
 /* -----------------------------------------------------------------
-Projects
+Projects Section
 ----------------------------------------------------------------- */
 
 .projectsHeaderBox {
@@ -194,7 +194,7 @@ Projects
   background-color: black;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .projectsInnerContainer{
@@ -205,7 +205,7 @@ Projects
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .projectsHeaderText {
@@ -213,15 +213,16 @@ Projects
   height: 40px;
 }
 
-.projectsBorderContainer {
-  /* max-width: 600px; */
-  /* max-width: 100%; */
+/* -----------------------------------------------------------------
+Individual Projects
+----------------------------------------------------------------- */
+
+.projectContainer {
   margin: 10px 20px 25px 20px;
   border-bottom: 12px solid black;
 }
 
 .projectHeaderBox {
-  grid-row-start: 1;
   height: 60px;
   color: black;
   background-color: white;
@@ -230,27 +231,53 @@ Projects
 }
 
 .projectBody {
-  grid-row-start: 2;
   background-color: white;
   /* background: linear-gradient(180deg, #e6e6e6 0%, white 30%, white 70%, #e6e6e6 100%); */
   padding: 5px 10px 15px 10px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .projectImages {
   padding: 11px 0px 25px 0px;
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
 }
 
 .projDescText {
-  max-width: 300px;
+  /* max-width: 300px; */
   text-align: justify;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .appImage {
   min-height: 150px;
   max-height: 17vw;
+  max-width: 100%;
+  /* max-height: 300px; */
+  border: 1px solid gray;
+  box-shadow: 1px 1px 2px;
+  margin: 0px 10px 0px 10px;
+}
+
+.appImageRundown {
+  min-height: 150px;
+  max-height: 17vw;
+  max-width: 130px;
+  border: 1px solid gray;
+  box-shadow: 1px 1px 2px;
+  margin: 0px 10px 0px 10px;
+}
+
+.appImage2 {
+  min-height: 150px;
+  max-height: 17vw;
+  max-width: 220px;
   border: 1px solid gray;
   box-shadow: 1px 1px 2px;
   margin: 0px 10px 0px 10px;
