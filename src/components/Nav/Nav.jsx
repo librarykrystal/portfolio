@@ -61,9 +61,9 @@ function Nav() {
     <ThemeProvider theme={theme}>
 
       <div className="navFSSD">
-        <Typography variant="body1" mt={0.1} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid #6f2c3f", borderRight: "5px solid #8f454c", fontSize: 16}} gutterBottom>Full-Stack</Typography>
-        <Typography variant="body1" mt={0} mb={-0.4} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid black", borderRight: "5px solid black", fontSize: 16}} gutterBottom>Software</Typography>
-        <Typography variant="body1" mt={0} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid black", borderRight: "5px solid black", fontSize: 16}} gutterBottom>Engineer</Typography>
+        <Typography mt={0.1} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid #6f2c3f", borderRight: "5px solid #8f454c", fontSize: 16}}>Full-Stack</Typography>
+        <Typography mt={0} mb={-0.4} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid black", borderRight: "5px solid black"}}>Software</Typography>
+        <Typography mt={0} mb={0} ml={-0.5} sx={{width: "100px", borderLeft: "5px solid black", borderRight: "5px solid black", fontSize: 16}} gutterBottom>Engineer</Typography>
       </div>
 
       <div className="navBarUpper"></div>

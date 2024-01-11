@@ -82,6 +82,7 @@ Nav Bar
   height: 70px;
   justify-self: center;
   text-align: center;
+  size: 16px !important;
 }
 
 .navLinksLeft {
