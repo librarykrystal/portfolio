@@ -84,7 +84,7 @@ function Home() {
             <div className="skillsBody">
               <Typography variant="body1" mt={0.5} mb={0} gutterBottom>Remote Work</Typography>
               <Typography variant="body1" mt={0} mb={0} gutterBottom>Open Communication</Typography>
-              <Typography variant="body1" mt={0} mb={0} gutterBottom>Flexible Hours</Typography>
+              <Typography variant="body1" mt={0} mb={0} gutterBottom>Thoughtful Organization</Typography>
               <Typography variant="body1" mt={0} mb={0} gutterBottom>Supportive Teams</Typography>
               <Typography variant="body1" mt={0} mb={0.2} gutterBottom>Room for Creativity</Typography>
             </div>

@@ -8,14 +8,16 @@ import '@fontsource/cabin/700.css';
 import '@fontsource/andika/400.css';
 import '@fontsource/andika/700.css';
 import '@fontsource/albert-sans/400.css';
+import '@fontsource/shadows-into-light-two';
 import Button from '@mui/material/Button';
 
 // Material UI Theming
 const theme = createTheme({
   typography: {
-    fontFamily: [
-      'Albert Sans',
-    ],
+    fontFamily: 'Albert Sans',
+    h6: {
+      fontFamily: 'Shadows Into Light Two',
+    }
   },
   palette: {
     primary: {
@@ -41,11 +43,10 @@ function Generator() {
     "Tom Waits",
     "Crunchy Leaves",
     "Grey Cats",
-    "Licorice Tea",
+    "Licorice",
     "Cryptograms",
     "Coen Brothers Films",
     "String Lights",
-    "Reading Banned Books",
     "B&W Photography",
     "Sculpture Gardens",
     "Meditating",
@@ -53,10 +54,9 @@ function Generator() {
     "Journaling",
     "Deckle Edges",
     "Songs about the Moon",
-    "Black Cold Brew",
+    "Black Coffee",
     "Wrought Iron",
-    "Irises",
-    "Tattoos"
+    "Irises"
   ];
   
   const getRandomThing = () => {
@@ -80,7 +80,7 @@ function Generator() {
 
       <div className="generatorHeader">
         <Typography variant="body1" mt={0} gutterBottom>RANDOM</Typography>
-        <Typography variant="h5" mt={-1.5} mb={-0.9} fontWeight="bold" gutterBottom>THING I LIKE</Typography>
+        <Typography variant="h6" mt={-1.5} mb={-0.9} gutterBottom>THING I LIKE</Typography>
         <Typography variant="body1" mt={0} gutterBottom>GENERATOR</Typography>
       </div>
       <div className="generatorResult">

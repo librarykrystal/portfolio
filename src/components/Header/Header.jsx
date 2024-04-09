@@ -11,16 +11,17 @@ import '@fontsource/andika/700.css';
 import '@fontsource/albert-sans/400.css';
 import '@fontsource/special-elite/400.css';
 import '@fontsource/rock-salt/400.css';
+import '@fontsource/shadows-into-light-two';
 
 // Material UI Theming
 const theme = createTheme({
   typography: {
     fontFamily: 'Albert Sans',
     h3: {
-      fontFamily: 'Rock Salt',
-      fontSize: '1.2rem',
-      '@media (max-width:600px)': {
-        fontSize: '1.7rem',
+      fontFamily: 'Shadows Into Light Two',
+      fontSize: '3rem',
+      '@media (max-width:410px)': {
+        fontSize: '2.2rem',
       }
   }},
   palette: {
@@ -46,8 +47,8 @@ function Header() {
       <div className="headerOuter">
 
         <div className="headerName">
-          <Typography variant="h3" mt={1.4} mb={0} sx={{fontSize: "3rem"}} gutterBottom>
-            Krystal Frost
+          <Typography variant="h3" mt={2} mb={0} sx={{fontSize: "3rem"}} gutterBottom>
+            KRYSTAL FROST
           </Typography>
           {/* <h1>Krystal Frost</h1> */}
         </div>

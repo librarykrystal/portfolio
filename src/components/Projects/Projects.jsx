@@ -22,6 +22,7 @@ import '@fontsource/andika/400.css';
 import '@fontsource/andika/700.css';
 import '@fontsource/albert-sans/400.css';
 import '@fontsource/rock-salt/400.css';
+import '@fontsource/shadows-into-light-two';
 import Button from '@mui/material/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import BrushIcon from '@mui/icons-material/Brush';
@@ -31,7 +32,7 @@ const theme = createTheme({
   typography: {
     fontFamily: 'Albert Sans',
     h4: {
-      fontFamily: 'Rock Salt',
+      fontFamily: 'Shadows Into Light Two',
     }
   },
   palette: {
@@ -60,7 +61,7 @@ function Projects() {
     <ThemeProvider theme={theme}>
 
       <div className="projectsHeaderBox">
-        <Typography className="projectsHeaderText" variant="h4" fontWeight="bold" sx={{fontSize: 18}} gutterBottom>
+        <Typography className="projectsHeaderText" variant="h4" fontWeight="bold" sx={{fontSize: 24}} gutterBottom>
           PROJECTS
         </Typography>
       </div>
