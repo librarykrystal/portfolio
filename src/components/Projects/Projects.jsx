@@ -1,5 +1,6 @@
 import React, { useLayoutEffect } from "react";
 
+import artSiteLanding from './artSite_landing.png';
 import rundownHome from './theRundown_home.png';
 import rundownDetails from './theRundown_details.png';
 import rundownEdit from './theRundown_edit.png';
@@ -23,6 +24,7 @@ import '@fontsource/albert-sans/400.css';
 import '@fontsource/rock-salt/400.css';
 import Button from '@mui/material/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import BrushIcon from '@mui/icons-material/Brush';
 
 // Material UI Theming
 const theme = createTheme({
@@ -65,6 +67,50 @@ function Projects() {
 
       <div className="projectsOuterContainer">
         <div className="projectsInnerContainer">
+
+        {/* THE RUNDOWN */}
+        <div className="projectContainer">
+            <div className="projectHeaderBox">
+              <Typography className="projectHeaderText" variant="h5" mt={0} mb={0} fontWeight="bold" gutterBottom>
+                Fine Art Portfolio Site
+              </Typography>
+              <Typography className="projectHeaderText" variant="body1" mt={0} mb={0} gutterBottom>
+                Deployed website showcasing artwork
+              </Typography>
+            </div>
+            <div className="projectBody">
+              <div className="projectImages">
+                <img className="appImage1" src={artSiteLanding}></img>
+                {/* <img className="appImageRundown" src={rundownDetails}></img> */}
+                {/* <img className="appImageRundown" src={rundownEdit}></img> */}
+              </div>
+              <div className="projDescText">
+                <Typography variant="body1" mt={0} mb={1} gutterBottom>
+                This personal portfolio site, built with React, features paintings, photography, and updates on my latest and in-progress work.
+                </Typography>
+              </div>
+              <div className="projectButtons">
+                <Button
+                sx={{ ml: 1, mr: 1, pr:1.5 }}
+                  variant="contained"
+                  color="info"
+                  size="small"
+                  startIcon={<BrushIcon />}
+                  href="https://www.galleryoffrost.com"
+                  >Visit the website
+                </Button>
+                <Button
+                sx={{ ml: 1, mr: 1 }}
+                  variant="contained"
+                  color="info"
+                  size="small"
+                  startIcon={<GitHubIcon />}
+                  href="https://github.com/librarykrystal/art-portfolio"
+                  >See it on GitHub
+                </Button>
+            </div>
+          </div>
+        </div>
 
         {/* THE RUNDOWN */}
         <div className="projectContainer">
