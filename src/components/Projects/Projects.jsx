@@ -57,6 +57,19 @@ function Projects() {
     window.scrollTo(0, 0)
   }, []);
 
+  // Array of project data
+  const projects = [
+    {
+      id: 1,
+      heading: 'xxx',
+      subheading: 'xxx',
+      image: 'source',
+      desc: 'xxx',
+      gitLink: 'xxx',
+      webLink: 'xxx'
+    }
+  ];
+
   return (
     <ThemeProvider theme={theme}>
 
