@@ -12,8 +12,14 @@ import galleryDesc2 from './gallerySnaps_desc2.png';
 import idealQuestions from './idealLivingWeek_questions.png';
 import idealPriorities from './idealLivingWeek_priorities.png';
 
+// Project image imports
+import artSite from './artSite.png';
+import gallery from './gallerySnaps.png';
+import idealWeek from './idealLivingWeek.png';
+import movieSet from './myMovieSet.png';
+import rundown from './theRundown.png';
 
-// Material UI Imports
+// Material UI imports
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 import '@fontsource/cabin/400.css';
@@ -27,7 +33,7 @@ import Button from '@mui/material/Button';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import BrushIcon from '@mui/icons-material/Brush';
 
-// Material UI Theming
+// Material UI theming
 const theme = createTheme({
   typography: {
     fontFamily: 'Albert Sans',
@@ -61,12 +67,48 @@ function Projects() {
   const projects = [
     {
       id: 1,
-      heading: 'xxx',
-      subheading: 'xxx',
-      image: 'source',
-      desc: 'xxx',
-      gitLink: 'xxx',
-      webLink: 'xxx'
+      heading: 'Fine Art Portfolio Site',
+      subheading: 'Deployed website showcasing artwork',
+      image: artSite,
+      desc: 'This personal portfolio site, built with React, features paintings, photography, and updates on my latest and in-progress work.',
+      gitLink: 'https://github.com/librarykrystal/art-portfolio',
+      webLink: 'https://www.galleryoffrost.com'
+    },
+    {
+      id: 2,
+      heading: 'The Rundown',
+      subheading: `Artist's Paint Inventory & Wishlist App`,
+      image: rundown,
+      desc: `This two-week solo project lets users inventory, wishlist, and filter artist's paint supplies. This app uses React, Redux, postgreSQL, CSS, and Material-UI.`,
+      gitLink: 'https://github.com/librarykrystal/artist-inventory',
+      webLink: null
+    },
+    {
+      id: 3,
+      heading: 'Ideal Living Week',
+      subheading: 'Mindfulness and Scheduling App',
+      image: idealWeek,
+      desc: `This group project for client Mick White's 100 Year Manifesto includes drag-and-drop prioritization, journaling, and scheduling out an ideal week.`,
+      gitLink: 'https://github.com/librarykrystal/100ym-ideal-living-week',
+      webLink: null
+    },
+    {
+      id: 4,
+      heading: 'My Movie Set',
+      subheading: 'Film Cataloguing App',
+      image: movieSet,
+      desc: 'This weekend challenge displays a collection of clickable film posters from a database. A details page shows description and genre(s).',
+      gitLink: 'https://github.com/librarykrystal/weekend-movie-sagas',
+      webLink: null
+    },
+    {
+      id: 5,
+      heading: 'My Snaps Gallery',
+      subheading: 'Gallery with Likes & Toggle Captions',
+      image: gallery,
+      desc: 'This weekend challenge showcases a set of photographs. Each photo has a like counter and can be clicked to toggle between image and caption.',
+      gitLink: 'https://github.com/librarykrystal/weekend-react-gallery',
+      webLink: null
     }
   ];
 
