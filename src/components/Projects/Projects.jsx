@@ -1,17 +1,5 @@
 import React, { useLayoutEffect } from "react";
 
-import artSiteLanding from './artSite_landing.png';
-import rundownHome from './theRundown_home.png';
-import rundownDetails from './theRundown_details.png';
-import rundownEdit from './theRundown_edit.png';
-import movieSetList from './myMovieSet_list.png';
-import movieSetDetails from './myMovieSet_details2.png';
-import galleryAll from './gallerySnaps_all.png';
-import galleryDesc1 from './gallerySnaps_desc1.png';
-import galleryDesc2 from './gallerySnaps_desc2.png';
-import idealQuestions from './idealLivingWeek_questions.png';
-import idealPriorities from './idealLivingWeek_priorities.png';
-
 // Project image imports
 import artSite from './artSite.png';
 import gallery from './gallerySnaps.png';
@@ -139,7 +127,7 @@ function Projects() {
                 <div className="projectBody">
                   {/* IMAGE(S) */}
                   <div className="projectImages">
-                    <img className="appImage1" src={project.image}></img>
+                    <img className="appImage" src={project.image}></img>
                   </div>
                   {/* DESCRIPTION */}
                   <div className="projDescText">
@@ -151,7 +139,7 @@ function Projects() {
                     {/* WEB LINK BUTTON — conditional, renders only if there is a web link */}
                     {project.webLink &&
                       <Button
-                      sx={{ ml: 1, mr: 1, pr:1.5 }}
+                      sx={{ mt: 2, ml: 1, mr: 1, pr:1.5 }}
                         variant="contained"
                         color="info"
                         size="small"
@@ -162,7 +150,7 @@ function Projects() {
                     }
                     {/* GITHUB LINK BUTTON */}
                     <Button
-                    sx={{ ml: 1, mr: 1 }}
+                    sx={{ mt: 2, ml: 1, mr: 1 }}
                       variant="contained"
                       color="info"
                       size="small"

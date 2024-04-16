@@ -249,9 +249,9 @@ Individual Projects
 }
 
 .projDescText {
-  /* max-width: 300px; */
+  min-height: 80px;
   text-align: justify;
-  margin-bottom: 10px;
+  margin: 0px 10px 10px 10px;
   display: flex;
   justify-content: center;
 }
@@ -259,44 +259,20 @@ Individual Projects
 .appImage {
   min-height: 150px;
   max-height: 17vw;
-  max-width: 100%;
-  /* max-height: 300px; */
+  max-width: 400px;
   border: 1px solid gray;
   box-shadow: 1px 1px 2px;
   margin: 0px 10px 0px 10px;
-}
-
-.appImageRundown {
-  min-height: 150px;
-  max-height: 17vw;
-  max-width: 130px;
-  border: 1px solid gray;
-  box-shadow: 1px 1px 2px;
-  margin: 0px 10px 0px 10px;
-}
-
-.appImage2 {
-  min-height: 150px;
-  max-height: 17vw;
-  max-width: 220px;
-  border: 1px solid gray;
-  box-shadow: 1px 1px 2px;
-  margin: 0px 10px 0px 10px;
-}
-
-.appImage1 {
-  min-height: 150px;
-  max-height: 17vw;
-  /* max-width: 220px; */
-  border: 1px solid gray;
-  box-shadow: 1px 1px 2px;
-  margin: 0px 10px 0px 10px;
+  padding: 15px;
+  background-color: #d9d9d9;
 }
 
 .projectButtons {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
-  margin-bottom: 3px;
+  margin: -10px 0px 3px 0px;
 }
 
 /* -----------------------------------------------------------------
